@@ -7,7 +7,7 @@ import {
   updateTodos,
 } from "../redux/reducer";
 import TodoItem from "./TodoItem";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const mapStateToProps = (state) => {
   return {
